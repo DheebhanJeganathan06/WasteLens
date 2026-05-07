@@ -8,6 +8,7 @@ import FindingsUniversities from './pages/FindingsUniversities'
 import FindingsLimits from './pages/FindingsLimits'
 import Solutions from './pages/Solutions'
 import About from './pages/About'
+import Credits from './pages/Credits'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/findings/limits" element={<FindingsLimits />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/about" element={<About />} />
+        <Route path="/credits" element={<Credits />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Layout>

@@ -7,6 +7,7 @@ const links = [
   { to: '/findings/k12', label: 'Findings' },
   { to: '/solutions', label: 'Solutions' },
   { to: '/about', label: 'About' },
+  { to: '/credits', label: 'Credits' },
 ]
 
 export default function Nav() {
